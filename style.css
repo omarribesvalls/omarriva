@@ -23,7 +23,7 @@ header h1 {
   margin: 40px auto;
   padding: 0 16px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 32px;
 }
 #post-detail {
@@ -56,7 +56,7 @@ header h1 {
   margin: 0;
   padding: 18px;
   font-size: 1.1rem;
-  color: #5a2a83;
+  color: #676767;
   background: #fff;
   border-radius: 0 0 14px 14px;
   text-align: left;
