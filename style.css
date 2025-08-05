@@ -1,14 +1,22 @@
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
   background: #faf7ff;
   margin: 0;
   padding: 0;
 }
 header {
-  background: #5a2a83;
-  color: #fff;
+  background: none;
+  color: #111;
   padding: 24px 0;
   text-align: center;
+}
+header h1 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+  letter-spacing: 2px;
 }
 #post-list {
   max-width: 1000px;
@@ -53,6 +61,7 @@ header {
   border-radius: 0 0 14px 14px;
   text-align: left;
   flex: 1;
+  font-family: 'Georgia', 'Times New Roman', serif;
 }
 a {
   color: inherit;
@@ -70,3 +79,6 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+/* Google Fonts import for Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
