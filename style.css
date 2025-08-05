@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 header {
-  background: #389c5b;
+  background: #5a2a83;
   color: #fff;
   padding: 24px 0;
   text-align: center;
@@ -48,7 +48,7 @@ header {
   margin: 0;
   padding: 18px;
   font-size: 1.1rem;
-  color: #ffffff;
+  color: #5a2a83;
   background: #fff;
   border-radius: 0 0 14px 14px;
   text-align: left;
@@ -67,4 +67,6 @@ a {
 }
 @media (max-width: 600px) {
   #post-list {
-    grid-template-columns:
+    grid-template-columns: 1fr;
+  }
+}
